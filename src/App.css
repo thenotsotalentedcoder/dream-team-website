@@ -1,0 +1,209 @@
+/* App.css - Custom styles for the Dream Team website */
+
+/* Variables for theme colors */
+:root {
+  --navy: #1a2639;
+  --teal: #4ecdc4;
+  --cream: #f7fff7;
+  --coral: #ff6b6b;
+}
+
+/* General Styles */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+/* Typography styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Clash Display', sans-serif;
+}
+
+.accent-text {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Section Styles */
+section {
+  position: relative;
+}
+
+.section {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Background Styles */
+.gradient-bg {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--teal) 100%);
+}
+
+.bg-navy {
+  background-color: var(--navy);
+}
+
+.bg-teal {
+  background-color: var(--teal);
+}
+
+.bg-cream {
+  background-color: var(--cream);
+}
+
+.bg-coral {
+  background-color: var(--coral);
+}
+
+.text-navy {
+  color: var(--navy);
+}
+
+.text-teal {
+  color: var(--teal);
+}
+
+.text-cream {
+  color: var(--cream);
+}
+
+.text-coral {
+  color: var(--coral);
+}
+
+/* Card Styles */
+.card-shadow {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.card-shadow:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transform: translateY(-5px);
+}
+
+/* Reveal Animation Classes */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Animation delays for staggered animations */
+.delay-100 {
+  transition-delay: 0.1s;
+}
+
+.delay-200 {
+  transition-delay: 0.2s;
+}
+
+.delay-300 {
+  transition-delay: 0.3s;
+}
+
+.delay-400 {
+  transition-delay: 0.4s;
+}
+
+.delay-500 {
+  transition-delay: 0.5s;
+}
+
+/* Hide scrollbar for horizontal scrolling sections */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Hover effects */
+.hover-scale {
+  transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+/* Button styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--teal);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #3db9b1;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: var(--coral);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #ff5252;
+  transform: translateY(-2px);
+}
+
+/* Link styles */
+a {
+  color: var(--teal);
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #3db9b1;
+}
+
+/* Modal styles */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  backdrop-filter: blur(5px);
+}
+
+.modal-content {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  max-width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 1rem;
+  }
+}
