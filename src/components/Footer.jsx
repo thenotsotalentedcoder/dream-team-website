@@ -134,7 +134,7 @@ const Footer = () => {
                 href="mailto:dreamteam@example.com" 
                 className="text-white hover:underline text-sm"
               >
-                dreamteam@example.com
+                malikmuzammilarman@gmail.com
               </a>
             </div>
           </div>
@@ -145,7 +145,7 @@ const Footer = () => {
               &copy; {currentYear} Dream Team. All rights reserved.
             </p>
             <p className="text-white text-opacity-80 mt-1 text-xs">
-              Made with ❤️ by the Dream Team
+              Made with ❤️ by @thenotsotalentedcoder
             </p>
           </div>
         </div>

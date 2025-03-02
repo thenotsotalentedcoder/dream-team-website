@@ -33,9 +33,9 @@ const TeamGrid = () => {
       interests: ["English Literature", "Public Speaking", "UI/UX Design"],
       funFact: "Successfully led the student council election campaign and won the presidency.",
       socialLinks: {
-        instagram: "https://instagram.com/ali",
+        instagram: "https://www.instagram.com/__ali.mansoor/",
         twitter: "https://twitter.com/ali",
-        linkedin: "https://linkedin.com/in/ali"
+        linkedin: "https://www.linkedin.com/in/syed-ali-mansoor/"
       }
     },
     {
@@ -49,9 +49,9 @@ const TeamGrid = () => {
       interests: ["Coding", "Travelling", "Anything Crazy"],
       funFact: "Helped organize and run the Scinnova competition during college.",
       socialLinks: {
-        instagram: "https://instagram.com/minhaj",
+        instagram: "https://www.instagram.com/the_miniman_2123/",
         twitter: "https://twitter.com/minhaj",
-        linkedin: "https://linkedin.com/in/minhaj"
+        linkedin: "https://www.linkedin.com/in/muhammad-minhajuddin76/"
       }
     },
     {
@@ -65,9 +65,9 @@ const TeamGrid = () => {
       interests: ["Chemistry", "Anime & Manga", "Console Gaming"],
       funFact: "Has an impressive collection of manga that he's been building since high school.",
       socialLinks: {
-        instagram: "https://instagram.com/hamza",
+        instagram: "https://www.instagram.com/hamzamalam04/",
         twitter: "https://twitter.com/hamza",
-        linkedin: "https://linkedin.com/in/hamza"
+        linkedin: "https://www.linkedin.com/in/hmalam/"
       }
     },
     {
@@ -81,9 +81,9 @@ const TeamGrid = () => {
       interests: ["Physics", "Mathematics", "Reddit Scrolling"],
       funFact: "One of the few who took on the challenge of Further Mathematics during A Levels.",
       socialLinks: {
-        instagram: "https://instagram.com/ateeq",
+        instagram: "https://www.instagram.com/teeq.ur.rehman/",
         twitter: "https://twitter.com/ateeq",
-        linkedin: "https://linkedin.com/in/ateeq"
+        linkedin: "https://www.instagram.com/teeq.ur.rehman/"
       }
     },
     {
@@ -97,9 +97,9 @@ const TeamGrid = () => {
       interests: ["Public Speaking", "Accounting", "Cricket", "Debating"],
       funFact: "Led the Mind Sports Society during college, organizing strategic gaming competitions.",
       socialLinks: {
-        instagram: "https://instagram.com/nusaib",
+        instagram: "https://www.instagram.com/nusaibabdullah/",
         twitter: "https://twitter.com/nusaib",
-        linkedin: "https://linkedin.com/in/nusaib"
+        linkedin: "https://www.instagram.com/nusaibabdullah/"
       }
     },
     {
@@ -113,9 +113,9 @@ const TeamGrid = () => {
       interests: ["Cricket", "Photography", "Environmental Conservation", "Aeroplanes"],
       funFact: "Served in the Student Council cabinet alongside Ali during college.",
       socialLinks: {
-        instagram: "https://instagram.com/saad",
+        instagram: "https://www.instagram.com/saad._.izz/",
         twitter: "https://twitter.com/saad",
-        linkedin: "https://linkedin.com/in/saad"
+        linkedin: "https://www.linkedin.com/in/saad-waheed-8905b6271/"
       }
     },
     {
@@ -129,9 +129,9 @@ const TeamGrid = () => {
       interests: ["AI Coding", "Football (Barcelona)", "Sky/Cloud Photography", "Fast Foods"],
       funFact: "Has an impressive portfolio of cloud formations photographed from unique perspectives.",
       socialLinks: {
-        instagram: "https://instagram.com/malik",
+        instagram: "https://www.instagram.com/malik_muzammil_09/",
         twitter: "https://twitter.com/malik",
-        linkedin: "https://linkedin.com/in/malik"
+        linkedin: "https://www.linkedin.com/in/malik-muzammil-arman-b296102ba/"
       }
     }
   ];
