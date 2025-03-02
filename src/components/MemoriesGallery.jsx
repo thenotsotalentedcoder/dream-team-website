@@ -278,6 +278,19 @@ const MemoriesGallery = () => {
     }
   };
 
+  // Add these event handlers for touch interactions
+  const handleTouchStart = () => {
+    setIsPaused(true); // Pause the automatic scrolling
+  };
+  
+  const handleTouchEnd = () => {
+    // Optional: add a delay before resuming automatic scrolling
+    setTimeout(() => {
+      setIsPaused(false); // Resume automatic scrolling
+    }, 2000); // Wait 2 seconds before resuming
+  };
+  
+
   return (
     <section id="memories" className="py-20 bg-cream overflow-hidden">
       <div className="container mx-auto px-4">
@@ -296,10 +309,13 @@ const MemoriesGallery = () => {
         <div 
           ref={galleryRef}
           className="flex overflow-x-auto hide-scrollbar pb-8"
-          style={{ scrollBehavior: 'smooth' }}
+          style={{ scrollBehavior: 'smooth', WebkitOverflowScrolling: 'touch' }}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
+          onTouchStart={handleTouchStart}
+          onTouchEnd={handleTouchEnd}
         >
+
           <div className="flex space-x-6 py-4 px-4">
             {allImages.map((image, index) => (
               <div 
